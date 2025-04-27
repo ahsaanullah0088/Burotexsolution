@@ -10,8 +10,9 @@ const Hero = () => {
     </div>
     <div className="mt-8 items-center flex justify-center">
         <iframe 
-          width="1000" 
-          height="515" 
+          width="1200" 
+          height="700" 
+          className='mb-9'
           src="https://www.youtube.com/embed/7iZUU2dTH24" 
           title="YouTube Video" 
           frameBorder="0" 
