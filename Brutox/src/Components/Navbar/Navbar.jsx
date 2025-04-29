@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { useClerk, UserButton, useUser } from "@clerk/clerk-react";
+import Dahsboard from "../../Pages/Dahsboard";
 
 const Navbar = () => {
   const { openSignIn } = useClerk();
@@ -11,7 +12,7 @@ const Navbar = () => {
     <div className="shadow py-2">
       <div className="container px-4 2xl:px-20 mx-auto flex justify-between items-center">
         {/* Bigger Logo */}
-        <img src={logo} alt="Logo" className="h-12 md:h-15" />
+        <img src={logo} alt="Logo" className="h-15 md:h-20" />
 
         {user ? (
           <div className="flex items-center gap-2 sm:gap-4">
